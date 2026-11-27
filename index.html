@@ -6,16 +6,17 @@
     <meta name="theme-color" content="#08191b">
     <meta name="description" content="Privacy policies and data-handling information for apps by Aamir Habib.">
     <title>Aamir Apps Privacy</title>
-    <link rel="icon" href="./assets/whatsweb-pro-icon.png" type="image/png">
+    <link rel="icon" href="./assets/aamir-apps-privacy-logo.jpg" type="image/jpeg">
     <link rel="stylesheet" href="./site.css">
     <script src="./apps.js" defer></script>
+    <script src="./site-interactions.js" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#apps">Skip to apps</a>
     <header class="site-header">
       <a class="brand-lockup" href="./" aria-label="Aamir Apps Privacy home">
-        <img src="./assets/whatsweb-pro-icon.png" alt="" width="48" height="48">
-        <span>
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-copy">
           <strong>Aamir Apps</strong>
           <small>Privacy center</small>
         </span>
@@ -33,9 +34,8 @@
             Choose an app to open its policy.
           </p>
         </div>
-        <div class="hero-mark" aria-hidden="true">
-          <span class="hero-orbit"></span>
-          <span class="hero-star">✦</span>
+        <div class="hero-mark">
+          <img src="./assets/aamir-apps-privacy-logo.jpg" alt="Aamir Apps Privacy logo" width="1024" height="1024">
         </div>
       </section>
 
@@ -58,5 +58,15 @@
       <span>© <span id="year"></span> Aamir Apps</span>
       <span>Each policy describes the named app and its current data practices.</span>
     </footer>
+
+    <div class="pull-indicator" id="pull-indicator" role="status" aria-live="polite">
+      <span class="refresh-spinner" aria-hidden="true"></span>
+      <span id="refresh-status">Pull down to refresh</span>
+    </div>
+    <button class="back-to-top" type="button" aria-label="Back to top" title="Back to top">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12 19V5m-7 7 7-7 7 7"></path>
+      </svg>
+    </button>
   </body>
 </html>
