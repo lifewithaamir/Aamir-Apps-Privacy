@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#08191b">
+    <meta name="description" content="Privacy policies and data-handling information for apps by Aamir Habib.">
+    <title>Aamir Apps Privacy</title>
+    <link rel="icon" href="./assets/whatsweb-pro-icon.png" type="image/png">
+    <link rel="stylesheet" href="./site.css">
+    <script src="./apps.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#apps">Skip to apps</a>
+    <header class="site-header">
+      <a class="brand-lockup" href="./" aria-label="Aamir Apps Privacy home">
+        <img src="./assets/whatsweb-pro-icon.png" alt="" width="48" height="48">
+        <span>
+          <strong>Aamir Apps</strong>
+          <small>Privacy center</small>
+        </span>
+      </a>
+      <span class="header-note">Clear information. App by app.</span>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Privacy, in one place</p>
+          <h1 id="page-title">Aamir Apps Privacy</h1>
+          <p class="hero-description">
+            Find the privacy policy and data-handling details for each app.
+            Choose an app to open its policy.
+          </p>
+        </div>
+        <div class="hero-mark" aria-hidden="true">
+          <span class="hero-orbit"></span>
+          <span class="hero-star">✦</span>
+        </div>
+      </section>
+
+      <section class="apps-section" id="apps" aria-labelledby="apps-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">App directory</p>
+            <h2 id="apps-title">Privacy policies</h2>
+          </div>
+          <p class="sort-note">Newest apps first</p>
+        </div>
+
+        <div id="app-list" class="app-grid" aria-live="polite"></div>
+        <nav id="pagination" class="pagination" aria-label="App pages" hidden></nav>
+        <p id="empty-state" class="empty-state" hidden>No app policies are listed yet.</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© <span id="year"></span> Aamir Apps</span>
+      <span>Each policy describes the named app and its current data practices.</span>
+    </footer>
+  </body>
+</html>
