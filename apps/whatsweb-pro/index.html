@@ -6,14 +6,15 @@
     <meta name="theme-color" content="#08191b">
     <meta name="description" content="Privacy policy for WhatsWeb Pro, an independent Android app by CH Aamir Habib.">
     <title>WhatsWeb Pro Privacy Policy | Aamir Apps</title>
-    <link rel="icon" href="../../assets/whatsweb-pro-icon.png" type="image/png">
+    <link rel="icon" href="../../assets/aamir-apps-privacy-logo.jpg" type="image/jpeg">
     <link rel="stylesheet" href="../../site.css">
+    <script src="../../site-interactions.js" defer></script>
   </head>
   <body>
     <header class="site-header">
       <a class="brand-lockup" href="../../" aria-label="Aamir Apps Privacy home">
-        <img src="../../assets/whatsweb-pro-icon.png" alt="" width="48" height="48">
-        <span>
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-copy">
           <strong>Aamir Apps</strong>
           <small>Privacy center</small>
         </span>
@@ -147,5 +148,15 @@
       <span>© 2026 Aamir Apps</span>
       <a href="../../">Aamir Apps Privacy home</a>
     </footer>
+
+    <div class="pull-indicator" id="pull-indicator" role="status" aria-live="polite">
+      <span class="refresh-spinner" aria-hidden="true"></span>
+      <span id="refresh-status">Pull down to refresh</span>
+    </div>
+    <button class="back-to-top" type="button" aria-label="Back to top" title="Back to top">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12 19V5m-7 7 7-7 7 7"></path>
+      </svg>
+    </button>
   </body>
 </html>
