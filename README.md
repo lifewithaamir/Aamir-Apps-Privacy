@@ -5,7 +5,7 @@ This public repository hosts the privacy center for Aamir's apps. It contains on
 ## Shared site style and navigation
 
 - Keep the existing dark teal, warm gold, rounded-card visual style in `site.css`.
-- Use `assets/aamir-apps-privacy-logo.jpg` for the **Aamir Apps Privacy site identity**. The header logo and name must link to the site home page on every page.
+- Use `assets/aamir-apps-privacy-logo.jpg` for the **Aamir Apps Privacy site identity** and show it clearly in the home-page hero. Use its cropped `assets/aamir-apps-privacy-mark.jpg` in the site header and favicon; the header logo and name must link home on every page.
 - Keep each product's own icon and artwork separate. Use those only for its directory card and its own policy page.
 - Load `site-interactions.js` on every page and include its shared controls: pull down at the top to refresh, and the floating back-to-top button after scrolling.
 - Preserve the subtle logo/text animations and honor `prefers-reduced-motion`.
