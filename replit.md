@@ -5,7 +5,7 @@ This repository is the shared public privacy-policy site for Aamir's apps. When 
 ## Preserve the site's identity and layout
 
 - Use the current dark teal and warm gold palette, typography, spacing, rounded panels, and responsive cards from `site.css`.
-- The Aamir Apps Privacy identity is `assets/aamir-apps-privacy-logo.jpg`; it is not an individual app's logo.
+- The Aamir Apps Privacy identity is `assets/aamir-apps-privacy-logo.jpg`; it is not an individual app's logo. Show the full logo clearly in the home-page hero and use its cropped `assets/aamir-apps-privacy-mark.jpg` in the shared header and favicon.
 - On every page, the animated site logo and “Aamir Apps / Privacy center” wordmark must be a working link to the home page.
 - Use each app's own icon/artwork only for that app's home-directory card and policy page. Never replace the site's logo with an app icon.
 - Keep the logo and wordmark animation subtle and disable it for users who request reduced motion.
